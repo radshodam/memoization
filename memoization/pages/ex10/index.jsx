@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-export default function App() {
+export default function Index() {
   const [todos, setTodos] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
   const [paginatedTodos, setPaginatedTodos] = useState([]);
